@@ -40,4 +40,4 @@ Should you only want to run the scraping script, the following dependencies are 
 
 1. The abstracts used in the study are scraped using the scripts/scraping/data_collection.py file. It connects to GUPEA and scrapes articles from all departements in the specified time periods. Should you run the scripts the produced CSV files will be located in the data-dump/ folder as to not be confused with previously generated data.
 2. The data analysis scripts are located in the scripts/data-analysis folder. To recreate the data analysis steps from the thesis: (1) run identify_marker_words.py, (2) run permutation_test_words.py (3) run calculate_coherence.py, and (4) run permutation_test_coh.py.
-3.All figures used in the thesis were created using the scripts located in the scripts/figure-creation/ folder.
+3. All figures used in the thesis were created using the scripts located in the scripts/figure-creation/ folder.
